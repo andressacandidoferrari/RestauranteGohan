@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurante Gohan</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
-    Ola
-</body>
+    <header>
+        <div class="container">
+            <h1>Restaurante Gohan</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">Nossa História</a>
+                </li>
+                <li>
+                    <a href="#contact">Faça sua reserva</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="about">
+      <div class="container">
+        <img class="sushi" src="./imagens/sushi(1).jpg" alt="foto de sushi">
+       <div>
+        <h2>Nossa História</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed soluta saepe molestias excepturi, nulla aspernatur unde, non laboriosam veniam natus quam reprehenderit dolorem quas similique dolores placeat ratione, in harum?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquam illum. Velit, alias quis. Ad repellendus corporis, molestias placeat molestiae adipisci expedita dicta quasi eius unde ipsum. Iure, atque fugiat!
+        </p>
+        <button type="button">Cardápio</button>
+        
+       </div>
+      </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Faça sua reserva</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <input type="tel" placeholder="Seu telefone (opcinal)">
+                        <input type="date" placeholder="Data da reserva (opcinal)">
+                        <textarea placeholder="Sua mensagem" required ></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                       
+                        <li>
+                            <a href="#" title="Faça seu pedido pelo whatsapp">
+                                <img src="/imagens/whatsapp.png" alt="Logo do whatsapp">
+                            </a>
+                        </li>
+                         <li>
+                             <a href="#" title="Nos acompanhe no instagram">
+                                <img src="/imagens/instagram.png" alt="Logo do instagram">
+                            </a>
+                         </li>
+                        <li>
+                            <a href="#" title="Nos acompanhe no facebook">
+                                 <img src="/imagens/facebook.png" alt="Logo do facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                     <p>Rua JavaScript, 124 Vila HTML - São Paulo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Restaurante Gohan - Todos os direitos reservados - 2023
+
+            </p>
+        </div>
+    </footer>
+
+    </body>
 </html>
